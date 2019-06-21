@@ -1,0 +1,22 @@
+{
+  "name": "TCNotificationExtensionService",
+  "version": "0.1.0",
+  "summary": "A short description of TCNotificationExtensionService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/freddyzeng/TCNotificationExtensionService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "freddyzeng": "fanrong@addcn.com"
+  },
+  "source": {
+    "git": "https://github.com/freddyzeng/TCNotificationExtensionService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TCNotificationExtensionService/Classes/**/*"
+}

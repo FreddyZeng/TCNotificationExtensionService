@@ -1,0 +1,16 @@
+PODS:
+  - TCNotificationExtensionService (0.1.0)
+
+DEPENDENCIES:
+  - TCNotificationExtensionService (from `../`)
+
+EXTERNAL SOURCES:
+  TCNotificationExtensionService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TCNotificationExtensionService: cf9908f11dda22fcad332cc4fe089229dc26d0c4
+
+PODFILE CHECKSUM: 02260a33cfd2427866ca3135c8f138a4a39743a0
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,6 @@
+framework module TCNotificationExtensionService {
+  umbrella header "TCNotificationExtensionService-umbrella.h"
+
+  export *
+  module * { export * }
+}

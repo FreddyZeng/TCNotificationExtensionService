@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C01F6C8B98AA3E255AE6077E1E8973 /* Pods-TCNotificationExtensionService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3698437EA761BB5BF17BE4338FDE1C30 /* Pods-TCNotificationExtensionService_Tests-dummy.m */; };
+		1DFCADDFAC9886114C4D7BA3A0066925 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AC3556D5A639F5B3C73E21D6855BFA /* ReplaceMe.swift */; };
+		1F85F7510B796E8C3F33F98B55CD24F6 /* Pods-TCNotificationExtensionService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3374C4538B26DE756A31131A0806A64 /* Pods-TCNotificationExtensionService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C51E2E174535D65D0B60208ABDE84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6F60312368164230A1DC59FD42512153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A5E1838CA1D62B158049B05E74B8D02B /* Pods-TCNotificationExtensionService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E3137AFD89F4C599F4B57C369EAD6A /* Pods-TCNotificationExtensionService_Example-dummy.m */; };
+		A609867443CB87374F24F929B0657913 /* TCNotificationExtensionService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8957255052D852785AAB0ED79CA410C4 /* TCNotificationExtensionService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B960CDFFA5074379CD35E171BEA9DC15 /* TCNotificationExtensionService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E29D3F25C0300D162127DD000F37BCC3 /* TCNotificationExtensionService-dummy.m */; };
+		E877C795F8721789B652AE475489A0E7 /* Pods-TCNotificationExtensionService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21120EC92FE27514B4BABE3897AFF606 /* Pods-TCNotificationExtensionService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA352D3D5FAE600472EA56DA38DC1F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A35079ECC86A255C74370413C5397AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F55ACF818B850F58AE1AE652C45D5A;
+			remoteInfo = "Pods-TCNotificationExtensionService_Example";
+		};
+		A227542DDB4C2C6365192120A982ED6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8D437D3FA8E3C199B2B9DB32A682CC;
+			remoteInfo = TCNotificationExtensionService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C12D489DACE24635153A58D7BF2A189 /* TCNotificationExtensionService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCNotificationExtensionService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D79B6DDC6B8DC3DADF9D13FFF844603 /* TCNotificationExtensionService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCNotificationExtensionService-prefix.pch"; sourceTree = "<group>"; };
+		0F1168260AD486AD2D6F4E4306114422 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		21120EC92FE27514B4BABE3897AFF606 /* Pods-TCNotificationExtensionService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCNotificationExtensionService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2C7E09F0ED6D994B6BE0D67AD2E3748B /* Pods-TCNotificationExtensionService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCNotificationExtensionService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2E391FBC531AAC980233E5E53A4C42E2 /* Pods-TCNotificationExtensionService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCNotificationExtensionService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		361031C15A5CECC895EC17E643C073AA /* Pods-TCNotificationExtensionService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCNotificationExtensionService_Example-Info.plist"; sourceTree = "<group>"; };
+		3698437EA761BB5BF17BE4338FDE1C30 /* Pods-TCNotificationExtensionService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCNotificationExtensionService_Tests-dummy.m"; sourceTree = "<group>"; };
+		37AC3556D5A639F5B3C73E21D6855BFA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TCNotificationExtensionService/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		38C3B6B441C2AA70D79C7CF054B7C917 /* Pods-TCNotificationExtensionService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCNotificationExtensionService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4629F991BD801F2A6DDDB063A0BE1D34 /* Pods-TCNotificationExtensionService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCNotificationExtensionService_Tests-Info.plist"; sourceTree = "<group>"; };
+		534C548B8369EB21EAFEC3CEA070A2E8 /* TCNotificationExtensionService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TCNotificationExtensionService.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		540A41D93217C97AA9A99785B232F7B6 /* Pods-TCNotificationExtensionService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCNotificationExtensionService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		558B30B4B11CEE08618418BF37425106 /* Pods-TCNotificationExtensionService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCNotificationExtensionService_Example.modulemap"; sourceTree = "<group>"; };
+		587347F2CB36CC1FA13D14E2234F4DB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		58D88E0757F40DBBCC2374978ED3DADA /* Pods_TCNotificationExtensionService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCNotificationExtensionService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8EB426A28429C4964252645B13E6BC /* Pods-TCNotificationExtensionService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCNotificationExtensionService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7203124377ABC1FA0C5E34B96A883A00 /* Pods-TCNotificationExtensionService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCNotificationExtensionService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74DFEA24BAB28EE18E3446DB7BD05EDA /* Pods_TCNotificationExtensionService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCNotificationExtensionService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A600F9857605EE40B817F746EE808A /* Pods-TCNotificationExtensionService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCNotificationExtensionService_Tests.modulemap"; sourceTree = "<group>"; };
+		776C2EF76D12B24D8F1BB01DF4DC8A38 /* TCNotificationExtensionService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCNotificationExtensionService.xcconfig; sourceTree = "<group>"; };
+		8957255052D852785AAB0ED79CA410C4 /* TCNotificationExtensionService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCNotificationExtensionService-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3374C4538B26DE756A31131A0806A64 /* Pods-TCNotificationExtensionService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCNotificationExtensionService_Example-umbrella.h"; sourceTree = "<group>"; };
+		B8B1EC6878B01F91FD810B0AD1523C89 /* Pods-TCNotificationExtensionService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCNotificationExtensionService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E29D3F25C0300D162127DD000F37BCC3 /* TCNotificationExtensionService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCNotificationExtensionService-dummy.m"; sourceTree = "<group>"; };
+		E818D6D0509D39E5F5AA9A45B3C31EC0 /* Pods-TCNotificationExtensionService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCNotificationExtensionService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E910EC0B997DDB5871E11F19B0E4E52F /* TCNotificationExtensionService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCNotificationExtensionService.modulemap; sourceTree = "<group>"; };
+		EB375666AC5381F26A57755642FA5622 /* TCNotificationExtensionService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TCNotificationExtensionService-Info.plist"; sourceTree = "<group>"; };
+		F7E3137AFD89F4C599F4B57C369EAD6A /* Pods-TCNotificationExtensionService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCNotificationExtensionService_Example-dummy.m"; sourceTree = "<group>"; };
+		FC7DE51EEE0256832BBA6453D3BCC1D1 /* Pods-TCNotificationExtensionService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCNotificationExtensionService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02425AA554AB2DB6576835F21A3BF489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA352D3D5FAE600472EA56DA38DC1F99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B2AAEA1673EAA548DB16DB31854216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C51E2E174535D65D0B60208ABDE84A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16B3A5C35B43E81B9B42C88701354EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F60312368164230A1DC59FD42512153 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07120B826ED20B708F28375DA635368B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF796F8901DD6B79C16046B754C9F57C /* Pods-TCNotificationExtensionService_Example */,
+				9FF3AF3A0A19F8E8C40C35ADB6A755D6 /* Pods-TCNotificationExtensionService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12C3F5118F1E20C49683E945BD6911CE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCC88C1C0622508B7A9414AEC54026F8 /* TCNotificationExtensionService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2F93552C0BBFF84E6E532F27A33401AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DFEA24BAB28EE18E3446DB7BD05EDA /* Pods_TCNotificationExtensionService_Example.framework */,
+				58D88E0757F40DBBCC2374978ED3DADA /* Pods_TCNotificationExtensionService_Tests.framework */,
+				0C12D489DACE24635153A58D7BF2A189 /* TCNotificationExtensionService.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D82D0106CBFD6AF4DB8892CC615471 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0F1168260AD486AD2D6F4E4306114422 /* LICENSE */,
+				587347F2CB36CC1FA13D14E2234F4DB7 /* README.md */,
+				534C548B8369EB21EAFEC3CEA070A2E8 /* TCNotificationExtensionService.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9FF3AF3A0A19F8E8C40C35ADB6A755D6 /* Pods-TCNotificationExtensionService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				75A600F9857605EE40B817F746EE808A /* Pods-TCNotificationExtensionService_Tests.modulemap */,
+				FC7DE51EEE0256832BBA6453D3BCC1D1 /* Pods-TCNotificationExtensionService_Tests-acknowledgements.markdown */,
+				B8B1EC6878B01F91FD810B0AD1523C89 /* Pods-TCNotificationExtensionService_Tests-acknowledgements.plist */,
+				3698437EA761BB5BF17BE4338FDE1C30 /* Pods-TCNotificationExtensionService_Tests-dummy.m */,
+				4629F991BD801F2A6DDDB063A0BE1D34 /* Pods-TCNotificationExtensionService_Tests-Info.plist */,
+				21120EC92FE27514B4BABE3897AFF606 /* Pods-TCNotificationExtensionService_Tests-umbrella.h */,
+				2E391FBC531AAC980233E5E53A4C42E2 /* Pods-TCNotificationExtensionService_Tests.debug.xcconfig */,
+				7203124377ABC1FA0C5E34B96A883A00 /* Pods-TCNotificationExtensionService_Tests.release.xcconfig */,
+			);
+			name = "Pods-TCNotificationExtensionService_Tests";
+			path = "Target Support Files/Pods-TCNotificationExtensionService_Tests";
+			sourceTree = "<group>";
+		};
+		BF796F8901DD6B79C16046B754C9F57C /* Pods-TCNotificationExtensionService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				558B30B4B11CEE08618418BF37425106 /* Pods-TCNotificationExtensionService_Example.modulemap */,
+				E818D6D0509D39E5F5AA9A45B3C31EC0 /* Pods-TCNotificationExtensionService_Example-acknowledgements.markdown */,
+				38C3B6B441C2AA70D79C7CF054B7C917 /* Pods-TCNotificationExtensionService_Example-acknowledgements.plist */,
+				F7E3137AFD89F4C599F4B57C369EAD6A /* Pods-TCNotificationExtensionService_Example-dummy.m */,
+				6C8EB426A28429C4964252645B13E6BC /* Pods-TCNotificationExtensionService_Example-frameworks.sh */,
+				361031C15A5CECC895EC17E643C073AA /* Pods-TCNotificationExtensionService_Example-Info.plist */,
+				A3374C4538B26DE756A31131A0806A64 /* Pods-TCNotificationExtensionService_Example-umbrella.h */,
+				540A41D93217C97AA9A99785B232F7B6 /* Pods-TCNotificationExtensionService_Example.debug.xcconfig */,
+				2C7E09F0ED6D994B6BE0D67AD2E3748B /* Pods-TCNotificationExtensionService_Example.release.xcconfig */,
+			);
+			name = "Pods-TCNotificationExtensionService_Example";
+			path = "Target Support Files/Pods-TCNotificationExtensionService_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				12C3F5118F1E20C49683E945BD6911CE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2F93552C0BBFF84E6E532F27A33401AF /* Products */,
+				07120B826ED20B708F28375DA635368B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D480522E83A9EF3131D4C78A9180C6FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E910EC0B997DDB5871E11F19B0E4E52F /* TCNotificationExtensionService.modulemap */,
+				776C2EF76D12B24D8F1BB01DF4DC8A38 /* TCNotificationExtensionService.xcconfig */,
+				E29D3F25C0300D162127DD000F37BCC3 /* TCNotificationExtensionService-dummy.m */,
+				EB375666AC5381F26A57755642FA5622 /* TCNotificationExtensionService-Info.plist */,
+				0D79B6DDC6B8DC3DADF9D13FFF844603 /* TCNotificationExtensionService-prefix.pch */,
+				8957255052D852785AAB0ED79CA410C4 /* TCNotificationExtensionService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TCNotificationExtensionService";
+			sourceTree = "<group>";
+		};
+		FCC88C1C0622508B7A9414AEC54026F8 /* TCNotificationExtensionService */ = {
+			isa = PBXGroup;
+			children = (
+				37AC3556D5A639F5B3C73E21D6855BFA /* ReplaceMe.swift */,
+				53D82D0106CBFD6AF4DB8892CC615471 /* Pod */,
+				D480522E83A9EF3131D4C78A9180C6FC /* Support Files */,
+			);
+			name = TCNotificationExtensionService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AEEDA2343EBFE7A945EA9B4EE3EC916 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A609867443CB87374F24F929B0657913 /* TCNotificationExtensionService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88BCF5EB235900610875B2940E2C6B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E877C795F8721789B652AE475489A0E7 /* Pods-TCNotificationExtensionService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA122D1E79A2FF24431A9307AB8EE447 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F85F7510B796E8C3F33F98B55CD24F6 /* Pods-TCNotificationExtensionService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E8D437D3FA8E3C199B2B9DB32A682CC /* TCNotificationExtensionService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EBCA5A543C0821EAAA75C05035701D /* Build configuration list for PBXNativeTarget "TCNotificationExtensionService" */;
+			buildPhases = (
+				3AEEDA2343EBFE7A945EA9B4EE3EC916 /* Headers */,
+				164815608433A456B7C3029E8DC8E3FE /* Sources */,
+				02425AA554AB2DB6576835F21A3BF489 /* Frameworks */,
+				3947AAAA1C90361C66C3AAE49C09EC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCNotificationExtensionService;
+			productName = TCNotificationExtensionService;
+			productReference = 0C12D489DACE24635153A58D7BF2A189 /* TCNotificationExtensionService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61FEE3501A2CE089983C307449B95583 /* Pods-TCNotificationExtensionService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA272B537B55AAC8C6B628914734D60 /* Build configuration list for PBXNativeTarget "Pods-TCNotificationExtensionService_Tests" */;
+			buildPhases = (
+				B88BCF5EB235900610875B2940E2C6B2 /* Headers */,
+				412327FD778FDEFEAC18ACC1EE61F5AD /* Sources */,
+				C16B3A5C35B43E81B9B42C88701354EC /* Frameworks */,
+				ED6E7573FF226A158F5AF5D9FFCAE6A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254EF4F009A45C6EB48D253ABAACB1F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TCNotificationExtensionService_Tests";
+			productName = "Pods-TCNotificationExtensionService_Tests";
+			productReference = 58D88E0757F40DBBCC2374978ED3DADA /* Pods_TCNotificationExtensionService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8F55ACF818B850F58AE1AE652C45D5A /* Pods-TCNotificationExtensionService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E292CB33392A9E6B21994D6940C089EB /* Build configuration list for PBXNativeTarget "Pods-TCNotificationExtensionService_Example" */;
+			buildPhases = (
+				DA122D1E79A2FF24431A9307AB8EE447 /* Headers */,
+				C0F06DEFD12E0B91A8058AF289548B4F /* Sources */,
+				C0B2AAEA1673EAA548DB16DB31854216 /* Frameworks */,
+				4956E670C152C1FBCE3BA9E93ED74FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E1A024246DEED9B5468114A20FE0D08 /* PBXTargetDependency */,
+			);
+			name = "Pods-TCNotificationExtensionService_Example";
+			productName = "Pods-TCNotificationExtensionService_Example";
+			productReference = 74DFEA24BAB28EE18E3446DB7BD05EDA /* Pods_TCNotificationExtensionService_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2F93552C0BBFF84E6E532F27A33401AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8F55ACF818B850F58AE1AE652C45D5A /* Pods-TCNotificationExtensionService_Example */,
+				61FEE3501A2CE089983C307449B95583 /* Pods-TCNotificationExtensionService_Tests */,
+				0E8D437D3FA8E3C199B2B9DB32A682CC /* TCNotificationExtensionService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3947AAAA1C90361C66C3AAE49C09EC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4956E670C152C1FBCE3BA9E93ED74FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6E7573FF226A158F5AF5D9FFCAE6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		164815608433A456B7C3029E8DC8E3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFCADDFAC9886114C4D7BA3A0066925 /* ReplaceMe.swift in Sources */,
+				B960CDFFA5074379CD35E171BEA9DC15 /* TCNotificationExtensionService-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412327FD778FDEFEAC18ACC1EE61F5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C01F6C8B98AA3E255AE6077E1E8973 /* Pods-TCNotificationExtensionService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F06DEFD12E0B91A8058AF289548B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E1838CA1D62B158049B05E74B8D02B /* Pods-TCNotificationExtensionService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		254EF4F009A45C6EB48D253ABAACB1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TCNotificationExtensionService_Example";
+			target = F8F55ACF818B850F58AE1AE652C45D5A /* Pods-TCNotificationExtensionService_Example */;
+			targetProxy = 2A35079ECC86A255C74370413C5397AB /* PBXContainerItemProxy */;
+		};
+		2E1A024246DEED9B5468114A20FE0D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TCNotificationExtensionService;
+			target = 0E8D437D3FA8E3C199B2B9DB32A682CC /* TCNotificationExtensionService */;
+			targetProxy = A227542DDB4C2C6365192120A982ED6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0403DFEDCF669C1E3EF45E7D979096B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776C2EF76D12B24D8F1BB01DF4DC8A38 /* TCNotificationExtensionService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TCNotificationExtensionService/TCNotificationExtensionService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TCNotificationExtensionService/TCNotificationExtensionService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TCNotificationExtensionService/TCNotificationExtensionService.modulemap";
+				PRODUCT_MODULE_NAME = TCNotificationExtensionService;
+				PRODUCT_NAME = TCNotificationExtensionService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		483142C7BFBA26DC180A24BB3DE67279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7E09F0ED6D994B6BE0D67AD2E3748B /* Pods-TCNotificationExtensionService_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCNotificationExtensionService_Example/Pods-TCNotificationExtensionService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCNotificationExtensionService_Example/Pods-TCNotificationExtensionService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59C73FB3C7BE93F8C9886F552B423116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E391FBC531AAC980233E5E53A4C42E2 /* Pods-TCNotificationExtensionService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCNotificationExtensionService_Tests/Pods-TCNotificationExtensionService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCNotificationExtensionService_Tests/Pods-TCNotificationExtensionService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93BC4B7511BD3E6AECD9069A575598F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7203124377ABC1FA0C5E34B96A883A00 /* Pods-TCNotificationExtensionService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCNotificationExtensionService_Tests/Pods-TCNotificationExtensionService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCNotificationExtensionService_Tests/Pods-TCNotificationExtensionService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0134F0796C8A3BCDA4B8320913C024D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776C2EF76D12B24D8F1BB01DF4DC8A38 /* TCNotificationExtensionService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TCNotificationExtensionService/TCNotificationExtensionService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TCNotificationExtensionService/TCNotificationExtensionService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TCNotificationExtensionService/TCNotificationExtensionService.modulemap";
+				PRODUCT_MODULE_NAME = TCNotificationExtensionService;
+				PRODUCT_NAME = TCNotificationExtensionService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC6B35FFDE295EDEBD6EB5F6D3B58DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540A41D93217C97AA9A99785B232F7B6 /* Pods-TCNotificationExtensionService_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCNotificationExtensionService_Example/Pods-TCNotificationExtensionService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCNotificationExtensionService_Example/Pods-TCNotificationExtensionService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA272B537B55AAC8C6B628914734D60 /* Build configuration list for PBXNativeTarget "Pods-TCNotificationExtensionService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C73FB3C7BE93F8C9886F552B423116 /* Debug */,
+				93BC4B7511BD3E6AECD9069A575598F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EBCA5A543C0821EAAA75C05035701D /* Build configuration list for PBXNativeTarget "TCNotificationExtensionService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0403DFEDCF669C1E3EF45E7D979096B0 /* Debug */,
+				A0134F0796C8A3BCDA4B8320913C024D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E292CB33392A9E6B21994D6940C089EB /* Build configuration list for PBXNativeTarget "Pods-TCNotificationExtensionService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6B35FFDE295EDEBD6EB5F6D3B58DEB /* Debug */,
+				483142C7BFBA26DC180A24BB3DE67279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
