@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TCNotificationExtensionService_Example' do
+  pod 'TCNotificationExtensionService', :path => '../'
+
+  target 'TCNotificationExtensionService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
