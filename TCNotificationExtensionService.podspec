@@ -43,4 +43,5 @@ TODO: Notification Extension Service for 8891
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'JPushExtension', '~> 1.1.2'
+  s.dependency 'Alamofire', '~> 4.8.2'
 end
