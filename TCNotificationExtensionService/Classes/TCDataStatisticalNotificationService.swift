@@ -9,7 +9,6 @@
 import UserNotifications
 import Alamofire
 import AdSupport
-import CommonCrypto
 import JPushExtension
 
 class TCDataStatisticalNotificationService: UNNotificationServiceExtension {
