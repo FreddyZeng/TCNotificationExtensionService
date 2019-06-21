@@ -35,7 +35,12 @@ TODO: Notification Extension Service for 8891
   s.frameworks = 'UIKit', 'UserNotifications', 'AdSupport', 'CommonCrypto'
 
   s.source_files = 'TCNotificationExtensionService/Classes/**/*'
-  
+
+  s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$PROJECT_DIR/JPushExtension' }
+
+  s.script_phase = { :name => 'CreateModulemap', :script => "touch \"${PROJECT_DIR}/JPushExtension/module.modulemap\"; \ncat <<EOF > \"${PROJECT_DIR}/JPushExtension/module.modulemap\"\nmodule JPushExtension [system] {\n\theader \"JPushNotificationExtensionService.h\"\n\texport *\n}\nEOF", :execution_position => :before_compile }
+
+
   # s.resource_bundles = {
   #   'TCNotificationExtensionService' => ['TCNotificationExtensionService/Assets/*.png']
   # }
