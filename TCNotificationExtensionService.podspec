@@ -32,7 +32,7 @@ TODO: Notification Extension Service for 8891
   s.requires_arc = true
   s.static_framework = true
   s.weak_framework = 'UserNotifications'
-  s.frameworks = 'UIKit', 'UserNotifications', 'AdSupport', 'CommonCrypto'
+  s.frameworks = 'UIKit', 'UserNotifications', 'AdSupport'
 
   s.source_files = 'TCNotificationExtensionService/Classes/**/*'
 
